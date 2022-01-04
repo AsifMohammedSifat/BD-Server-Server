@@ -74,7 +74,7 @@ export default function Cart() {
     
     const tranSuccess = async(payment) => {
         const {paymentID, address} = payment
-        await axios.post(`http://localhost:5000/api/payment`, {cart, paymentID, address}, {
+        await axios.post(`https://intense-lake-37547.herokuapp.com/api/payment`, {cart, paymentID, address}, {
             headers: {Authorization: token}
         })
         setCart([])

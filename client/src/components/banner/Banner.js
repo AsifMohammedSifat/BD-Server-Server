@@ -1,7 +1,7 @@
-import FlashSale from "./images/flash_sale.jpg"
+import FlashSale from "./images/flash_sale.png"
 import BannerPink from "./images/banner_pink.png"
-import Modal from "./images/moda.jpg"
-import Bambaska from "./images/bambaska.jpg"
+import Modal from "./images/moda.png"
+import Bambaska from "./images/bambaska.png"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

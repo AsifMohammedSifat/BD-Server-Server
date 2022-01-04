@@ -24,7 +24,7 @@ export default function Header() {
     }
     
     const logoutUser = async() => {
-       await axios.get(`http://localhost:5000/user/logout`)
+       await axios.get(`https://intense-lake-37547.herokuapp.com/user/logout`)
        localStorage.removeItem("Login")
        window.location.href = ('/')
     }
@@ -39,7 +39,7 @@ export default function Header() {
             <Link to="/"><img src={Logo} alt="" className="logo__image"/></Link>
           </div>
             <div className="languages">
-              <p>Vi-VN | En-US</p>
+              <p>BD-Ecommerce</p>
             </div>
             <div className="navbar__container">
             <label htmlFor="menu__input"><i className="fas fa-bars menu__icon header__icon"></i></label>
