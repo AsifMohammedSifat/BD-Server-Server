@@ -51,11 +51,7 @@ export default function Footer() {
             </div>
 
             <div className="infor__container">
-                  <div className="infor__title">
-                      <h3>NEW PRODUCTS</h3>
-                      <h3>DISCOUNTS</h3>
-                      <h3>CONTACT US</h3>
-                  </div>
+                
                   <div>
                       <p style={{fontSize: "1.7rem"}}>Subscribe to get the latest on sales, new releases and more ...</p>
                   </div>

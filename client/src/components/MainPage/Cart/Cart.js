@@ -34,7 +34,7 @@ export default function Cart() {
     }, [cart])
     
     const addToCart = async (cart) => {
-        await axios.patch('/user/addcart', {cart}, {
+        await axios.patch('https://intense-lake-37547.herokuapp.com/user/addcart', {cart}, {
           headers: {Authorization: token}
         })
       }

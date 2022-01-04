@@ -13,7 +13,7 @@ export const DataProvider = ({children}) => {
         const login = localStorage.getItem('Login')
         if(login){
             const refreshToken = async () =>{
-                const response = await axios.get('/user/refresh_token')
+                const response = await axios.get('https://intense-lake-37547.herokuapp.com/user/refresh_token')
                 setToken(response.data.accesstoken)
     
                 setTimeout(() => {
