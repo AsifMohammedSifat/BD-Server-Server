@@ -1,4 +1,4 @@
-import sale from "./images/blog-2018-what-is-sfcc.jpg"
+import sale from "./images/blog-2018-what-is-sfcc.png"
 
 export default function Advertise() {
     return (
